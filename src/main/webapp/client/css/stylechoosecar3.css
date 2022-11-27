@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#fafafa;
+}
+a {
+    color: #b71a4c;
+}
+.front-indicator-seat {
+    width: 145px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+}
+.wrapper-seat {
+    width: 100%;
+    text-align: center;
+    height: 80vh;
+}
+.container-seat {
+    margin: 0 auto;
+    width: 100%;
+    height: 75vh;
+    text-align: center;    
+}
+.booking-details-seat {
+    width:80%;
+    font-size: 20px;
+    height: 73vh;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    float: right;
+}
+.booking-details-seat h2 {
+    margin: 25px 0 20px 0;
+    font-size: 17px;
+}
+.booking-details-seat h3 {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+}
+div.seatCharts-cell {
+    color: #182C4E;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+
+}
+div.seatCharts-seat {
+    color: #F9f9ff;
+    cursor: pointer;
+}
+div.seatCharts-row {
+    margin-left: 60px;
+    height: 50px;
+}
+div.seatCharts-seat.available {
+    background-color: #B9DEA0;
+
+}
+div.seatCharts-seat.available.first-class {
+    /* 	background: url(vip.png); */
+    background-color: #3a78c3;
+}
+div.seatCharts-seat.focused {
+    background-color: #76B474;
+}
+div.seatCharts-seat.selected {
+    background-color: #E6CAC4;
+}
+div.seatCharts-seat.unavailable {
+    background-color: #472B34;
+}
+div.seatCharts-container {
+    border-right: 1px dotted #adadad;
+    width: 400px;
+    padding: 0px;
+    float: left;
+    margin-right: 0px;
+}
+div.seatCharts-legend {
+    padding-left: 0px;
+    position: absolute;
+    bottom: 16px;
+}
+ul.seatCharts-legendList {
+    padding-left: 0px;
+}
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+.selected-seats {
+    max-height: 40vh;
+    column-count: 2;
+    column-width: 50%;
+    overflow-y: auto;
+    width: 100%;
+
+}
+.check-out{
+    border: none;
+    width: 70%;
+    display: inline-flex;
+    position: absolute;
+    bottom: 0;
+    margin-left: -150px;
+}
+.check-out .total-content{
+    border: none;
+    margin-right: 20px;
+    padding-top: 8px;
+    font-size: 22px;
+    width: 200px;
+}
+.check-out button{
+    background-color: orange;
+    border: none;
+    color: white;
+    height: 45px;
+    border-radius: 8px;
+
+}
+.information{
+    border: 1px solid #258391;
+    margin-top: -5px;
+    display: inline-flex;
+    margin-bottom: -10px;
+}
+.information .driver{
+    display: inline-flex;
+    margin-left: -25px;
+}
+.information .driver img{
+    width: 100%;
+    padding: 0;
+    
+}
+.information .driver .driver-information{
+    margin-left: 15px;
+}
+.information .driver .driver-information p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.trip-information{
+    margin-left: 125px;
+    font-size: 20px;
+}
+.trip-information p{
+    margin-top: 23px;
+}

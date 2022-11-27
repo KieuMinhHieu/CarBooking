@@ -1,0 +1,30 @@
+// Tài khoản thanh toán ngân hàng NCB
+
+Ngân hàng	NCB
+Số thẻ          9704198526191432198
+Tên chủ thẻ	NGUYEN VAN A
+Ngày phát hành	07/15
+Mật khẩu OTP	123456
+
+// Tài khoản đăng nhập paypal
+
+huynguyen123456@personal.example.com
+123456789
+
+// Tài khoản đăng nhập normal
+
+
+
+// Tài khoản mail 
+
+carbookingstress@gmail.com
+Stress123456789
+
+//customer
+trangminhquang
+
+quangtrangmin
+
+Quang@123456789
+
+nguyenhuy1323614@gmail.com

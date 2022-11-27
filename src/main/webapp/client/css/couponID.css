@@ -1,0 +1,12 @@
+    .select-list-group__search{
+      height: 4vh;
+      width: 8vw;
+      border: 1px solid #929991;
+      cursor: pointer;
+      outline: none;
+      border-radius: 5px;
+      margin-top: -6px;
+      margin-left: 10px;
+    }
+    .select-list-group [data-toggle=false] {display: none;}
+    .select-list-group li[data-display=false] {display: none;}

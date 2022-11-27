@@ -1,0 +1,215 @@
+
+
+
+.shop-sidebar{
+    border: 1px solid #b1b5b2;
+    margin-left: 16%;
+    height: 80vh;      
+    border-radius: 5px;
+}
+.shop-sidebar h5{
+    font-size: 30px;
+    text-align: center;
+}
+
+.filter-by-seat .chon-loai-xe{
+    border: 1px solid #e0d5d5;
+    text-align: center;
+    display: none;
+    margin-top: -6px;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.filter-by-seat .chon-loai-xe a{
+    padding: 5px;
+    border: 1px solid #e0d5d5;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.filter-by-seat .chon-loai-xe a:hover{
+    background-color: #dedcdc;
+}
+
+.shop-sidebar .filter-by-seat h4:hover{
+    background-color: #0083ff;
+}
+
+
+
+.shop-sidebar .filter-by-seat h4{
+    border: 1px solid #c9c5c5;
+    padding:5px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.shop-product{
+    border: none;
+    margin-left: 2%;
+    margin-top: -66px;
+}
+.shop-product a{
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+}
+.shop-product a:hover{
+    color: darkred;
+}
+.shop-product h4{
+    margin-bottom: -5px;
+}
+.trip-detail{
+    border: 1px solid #b9c7bd;
+}
+.trip-detail:hover{
+    box-shadow: 5px 10px 20px rgba(130, 124, 124,1); 
+}
+.trip-detail .thongbao{
+    margin-top: -20px;
+}
+.trip-detail .thongbao .view-notification-button{
+    margin-left: 30px;
+    margin-bottom: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+    background-color: white;
+    text-decoration: underline;
+}
+.nut-chon-ghe{
+    text-align: right;
+    display: inline-flex;
+}
+.choose-seat-item{
+    display: inline-flex;
+    border: none;
+}
+.view-more-detail-button{
+    border:none;
+    color: blue;
+    background-color: #f8f9fc;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.chon-ghe{
+    padding-left: 22px;
+}
+.btn-choose-seat{
+    border: none;
+    background-color: #ffc700;
+    color: black;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+.btn-choose-seat:hover{
+    background-color: #ea7a10;
+}
+.no-seat{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: red; 
+    font-size: 20px;
+    border:none;
+    padding: 10px 0;
+}
+
+.ten-route{
+    width: 50%;
+    margin-bottom: -8px;
+    color: #959c97;
+}
+.vehicle-image{
+    margin-left: 20px;
+    width: 80%;
+}
+.vehicle-image img{
+    border-radius: 5px;
+}
+.chuyen-xe{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.thoigian-diadiem{
+    width:100%;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.thoigian-diadiem h6{
+    border-left: 2px dotted darkblue;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    width: 60%;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.thoigian-diadiem span{
+    font-size: 18px;
+}
+.chuyen-xe h3{
+    border: 1px;
+    font-size: 30px;
+    font-family: Georgia;
+    text-align: center;
+}
+.chuyen-xe p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #f76623;
+    margin-left: 60px;
+}
+.noidungthongbao{
+    position: absolute;
+    top: -95px;
+    left: -40px;
+    width: 80%;
+    box-shadow: 5px 10px 20px rgba(130, 124, 124,1); 
+}
+
+.chuyenxe-giathanh p{
+    margin-right: 40px;
+    font-size: 25px;
+    margin-top: 60px;  
+    text-align: right;
+}
+.chuyenxe-giathanh h3{
+    margin-right: 40px;
+    text-align: right;
+    margin-top: 50px;
+}
+.chuyenxe-nutbam h4{
+    border: 1px solid red;
+}
+.chuyen-xe button{
+    border: 1px solid red;
+}
+
+.not-found{
+    border: none;
+    height: 80vh;
+    text-align: center;
+}
+.not-found img{
+    width: 90%;
+    margin-top: 15%;
+}
+.not-found a{
+    color: #101ee8;
+    display: block;
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.not-found a:hover{
+    color: #e81010;
+}
+.phan-loai-theo-h a{
+    width: 105px;
+    background-color: cornflowerblue;
+}
